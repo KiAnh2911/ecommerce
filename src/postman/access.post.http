@@ -1,0 +1,15 @@
+### sign up
+@url_dev=http://localhost:3000/v1/api
+
+POST {{url_dev}}/shop/sign-up
+Content-Type: application/json
+x-api-key : 885c63c2c03568e5028d87ea86d8b26678e66a0a0828d3fd82dcb65df23a7d0898e4831741e189d8c4520447688541456bd6c53c2b801a5eca5a89b9f61b5523
+
+{ 
+  "name" : "Shop",
+  "email" : "shop11@gmail.com",
+  "password" : "123456"
+}
+### sign in
+
+GET {{url_dev}}/shop/sign-in
